@@ -1,0 +1,24 @@
+name: Load Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  locust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Locust
+        run: pip install locust
+      - name: Start backend
+        run: uvicorn app.main:app --host 0.0.0.0 --port 8000 &
+      - name: Run Locust headless
+        run: |
+          locust --headless --users 20 --spawn-rate 5 \
+                 --run-time 1m --host http://localhost:8000 \
+                 --csv=reports/locust
+      - name: Upload report
+        uses: actions/upload-artifact@v3
+        with:
+          name: locust-reports
+          path: reports/
