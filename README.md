@@ -3,7 +3,7 @@
 <!-- ================== -->
 
 <p align="center">
-  <img src="https://i.postimg.cc/nXyqY29j" alt="ChQuantum Logo" width="180px" />
+  <img src=" https://i.postimg.cc/XJF56tzt/Pilha-Eletromagn-tica.png" alt="ChQuantum Logo" width="180px" />
 </p>
 
 <p align="center">
