@@ -1,0 +1,9 @@
+- name: Integration Tests
+  run: |
+    TOKEN=$(curl -s -X POST http://localhost:8000/auth -d '{"user":"test"}' -H 'Content-Type: application/json' | jq -r .token)
+    KEY=$(curl -s -X POST http://localhost:8000/generate_key -H "Authorization: $TOKEN" | jq -r .api_key)
+    curl -s -X POST http://localhost:8000/demo \
+      -H "Authorization: $TOKEN" \
+      -H "X-API-Key: $KEY" \
+      -d '{"message":"test"}' \
+      -H "Content-Type: application/json"
