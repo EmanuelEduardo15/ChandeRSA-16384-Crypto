@@ -29,7 +29,7 @@
 ---
 
 # 🚀 ChQuantum Demo Platform
-ChandeRSA 16384 Crypto
+
 
 > **Test your quantum-grade RSA/AES engine online**  
 > From fast JWT auth to 16 384-bit RSA demos in under 4 seconds, all within a sleek dark-mode interface.
@@ -66,7 +66,7 @@ ChandeRSA 16384 Crypto
 
 ```bash
 # Clone
-git clone https://github.com/your-user/chquantum-demo.git
+git clone https://github.com/EmanuelEduardo15/chquantum-demo.git
 cd chquantum-demo
 
 # Install backend
