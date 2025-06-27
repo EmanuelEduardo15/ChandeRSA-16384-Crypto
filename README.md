@@ -1,12 +1,6 @@
 <!-- ================== -->
 <!--   ChQuantum Demo  -->
 <!-- ================== -->
-
-<p align="center">
-  <!-- Logo PNG com fundo transparente, exibido sobre o fundo escuro do GitHub Dark Mode -->
-  <img src="https://i.postimg.cc/XJF56tzt/Pilha-Eletromagn-tica.png" alt="ChQuantum Logo" width="200px" />
-</p>
-
 <p align="center">
   <!-- Imagem principal clicável -->
   <a href="https://postimg.cc/MvwJcJpg">
