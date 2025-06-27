@@ -29,6 +29,7 @@
 ---
 
 # 🚀 ChQuantum Demo Platform
+ChandeRSA 16384 Crypto
 
 > **Test your quantum-grade RSA/AES engine online**  
 > From fast JWT auth to 16 384-bit RSA demos in under 4 seconds, all within a sleek dark-mode interface.
